@@ -1,7 +1,8 @@
-import { validatePrice, validateRequired, toHidden, toShow } from "../util";
-import { store, addNewHistory } from "../store";
-import { renderHistoryList } from "./history-list";
-import { renderCurrentAsset } from "./current-asset";
+import { validatePrice, validateRequired, toHidden, toShow } from "/js/util.js";
+import { store, addNewHistory } from "/js/store.js";
+import { renderHistoryList } from "/js/components/history-list.js";
+import { renderCurrentAsset } from "/js/components/current-asset.js";
+
 
 const $addItemButton = document.querySelector(".add-item-button");
 const $addItemDetail = document.querySelector(".add-item-detail");
